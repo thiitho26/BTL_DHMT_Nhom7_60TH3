@@ -1,0 +1,25 @@
+﻿  Source.cpp
+C:\ThucHanh_DHMT\BTL_DHMT_nhom7\BTL_DHMT_nhom7\Source.cpp(30,1): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\ThucHanh_DHMT\BTL_DHMT_nhom7\BTL_DHMT_nhom7\Source.cpp(85,8): warning C4267: '=': conversion from 'size_t' to 'unsigned long', possible loss of data
+C:\ThucHanh_DHMT\BTL_DHMT_nhom7\BTL_DHMT_nhom7\Source.cpp(90,8): warning C4267: '=': conversion from 'size_t' to 'unsigned long', possible loss of data
+C:\ThucHanh_DHMT\BTL_DHMT_nhom7\BTL_DHMT_nhom7\Source.cpp(106,8): warning C4267: '=': conversion from 'size_t' to 'unsigned long', possible loss of data
+C:\ThucHanh_DHMT\BTL_DHMT_nhom7\BTL_DHMT_nhom7\Source.cpp(121,8): warning C4267: '=': conversion from 'size_t' to 'unsigned long', possible loss of data
+C:\ThucHanh_DHMT\BTL_DHMT_nhom7\BTL_DHMT_nhom7\Source.cpp(185,22): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\ThucHanh_DHMT\BTL_DHMT_nhom7\BTL_DHMT_nhom7\Source.cpp(185,19): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\ThucHanh_DHMT\BTL_DHMT_nhom7\BTL_DHMT_nhom7\Source.cpp(258,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\ThucHanh_DHMT\BTL_DHMT_nhom7\BTL_DHMT_nhom7\Source.cpp(332,27): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\ThucHanh_DHMT\BTL_DHMT_nhom7\BTL_DHMT_nhom7\Source.cpp(335,15): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\ThucHanh_DHMT\BTL_DHMT_nhom7\BTL_DHMT_nhom7\Source.cpp(336,15): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\ThucHanh_DHMT\BTL_DHMT_nhom7\BTL_DHMT_nhom7\Source.cpp(337,15): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\ThucHanh_DHMT\BTL_DHMT_nhom7\BTL_DHMT_nhom7\Source.cpp(354,27): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\ThucHanh_DHMT\BTL_DHMT_nhom7\BTL_DHMT_nhom7\Source.cpp(357,15): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\ThucHanh_DHMT\BTL_DHMT_nhom7\BTL_DHMT_nhom7\Source.cpp(358,15): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\ThucHanh_DHMT\BTL_DHMT_nhom7\BTL_DHMT_nhom7\Source.cpp(359,15): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\ThucHanh_DHMT\BTL_DHMT_nhom7\BTL_DHMT_nhom7\Source.cpp(439,29): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\ThucHanh_DHMT\BTL_DHMT_nhom7\BTL_DHMT_nhom7\Source.cpp(446,29): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\ThucHanh_DHMT\BTL_DHMT_nhom7\BTL_DHMT_nhom7\Source.cpp(539,33): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\ThucHanh_DHMT\BTL_DHMT_nhom7\BTL_DHMT_nhom7\Source.cpp(683,49): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\ThucHanh_DHMT\BTL_DHMT_nhom7\BTL_DHMT_nhom7\Source.cpp(684,50): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\ThucHanh_DHMT\BTL_DHMT_nhom7\BTL_DHMT_nhom7\Source.cpp(685,50): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\ThucHanh_DHMT\BTL_DHMT_nhom7\BTL_DHMT_nhom7\Source.cpp(690,36): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+  BTL_DHMT_nhom7.vcxproj -> C:\ThucHanh_DHMT\BTL_DHMT_nhom7\x64\Debug\BTL_DHMT_nhom7.exe
