@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <float.h>
 #include <stdlib.h>
 #include <string.h>
@@ -359,7 +359,7 @@ static void drawCube2() {
     glRotatef(angleZ, 0, 0, 1);
 
     for (int i = 0; i < 6; ++i) {
-        glNormal3fv(face2[i][0]);
+        //glNormal3fv(face2[i][0]);
         glBindTexture(GL_TEXTURE_2D, texture[i]);
         glBegin(GL_POLYGON);
         glTexCoord2f(0.0, 0.0); glVertex3fv(face2[i][0]);
@@ -404,14 +404,14 @@ static GLfloat floorVertices[4][3] = {
 // Hàm vẽ sàn
 static void drawFloor(void)
 {
-    glDisable(GL_LIGHTING);
+    //glDisable(GL_LIGHTING);
     glBegin(GL_QUADS);
     glVertex3fv(floorVertices[0]);
     glVertex3fv(floorVertices[1]);
     glVertex3fv(floorVertices[2]);
     glVertex3fv(floorVertices[3]);
     glEnd();
-    glEnable(GL_LIGHTING);
+    //glEnable(GL_LIGHTING);
 }
 
 static GLfloat lightPosition[4];
@@ -466,6 +466,7 @@ static void drawGroundReflection() {
     glStencilFunc(GL_ALWAYS, 1, 0xffffffff);
 
     // vẽ sàn với pixel sàn chỉ cần đặt stencil của chúng thành 1
+    glTranslatef(0.0, -1.5, 0.0);
     drawFloor();
 
     // bật lại cập nhật màu sắc và độ sâu
@@ -537,6 +538,7 @@ static void display(void)
 
     glEnable(GL_BLEND);
     glColor4f(1.0, 1.0, 1.0, 0.3);
+    glTranslatef(0.0, -1.5, 0.0);
     drawFloor();                    /* vẽ sàn */
     glDisable(GL_BLEND);
 
@@ -708,6 +710,9 @@ void init(void)
     texture[4] = LoadBMP("5.bmp");
     texture[5] = LoadBMP("6.bmp");
     glDisable(GL_TEXTURE_2D);
+
+    // thiết lập sơ đồ mặt phẳng để tính toán bóng chiếu dự kiến
+    findPlane(floorPlane, floorVertices[1], floorVertices[2], floorVertices[3]);
 }
 
 int main(int argc, char** argv)
@@ -736,9 +741,6 @@ int main(int argc, char** argv)
     glutAttachMenu(GLUT_RIGHT_BUTTON);
 
     init(); // khởi tạo một số chế độ đồ họa
-
-    // thiết lập sơ đồ mặt phẳng để tính toán bóng chiếu dự kiến
-    findPlane(floorPlane, floorVertices[1], floorVertices[2], floorVertices[3]);
 
     glutMainLoop(); // bắt đầu chu trình lặp thể hiện vẽ
     return 0;
